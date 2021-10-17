@@ -26,4 +26,6 @@ class SpectreAssistant {
         };
     }
 }
-exports.default = SpectreAssistant;
+module.exports = {
+    SpectreAssistant
+};
