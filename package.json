@@ -1,6 +1,6 @@
 {
   "name": "spectreassistant",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "SpectreAssistant for Spectre",
   "main": "dist/main",
   "scripts": {

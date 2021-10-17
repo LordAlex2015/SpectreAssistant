@@ -8,8 +8,9 @@ export default class SpectreAssistant {
     private readonly logins;
     constructor(redis_login: RedisLogin);
 }
-export declare type RedisLogin = {
+declare type RedisLogin = {
     host: string;
     password: string;
     port?: number;
 };
+export {};

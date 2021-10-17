@@ -1,6 +1,6 @@
-import Redis from 'redis';
+import * as Redis from 'redis';
 
-export default class SpectreAssistant {
+export class SpectreAssistant {
     private redis: Redis.RedisClient;
     private get: (key: string) => Promise<string>;
     private setTempData: (key: string, value: string, expire: number) => boolean;
@@ -32,4 +32,4 @@ export default class SpectreAssistant {
     }
 }
 
-export type RedisLogin = {host: string, password: string, port?: number}
+type RedisLogin = {host: string, password: string, port?: number}

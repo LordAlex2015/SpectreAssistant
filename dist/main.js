@@ -1,10 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const redis_1 = require("redis");
+const Redis = require("redis");
 class SpectreAssistant {
     constructor(redis_login) {
         this.logins = redis_login;
-        this.redis = redis_1.default.createClient({
+        this.redis = Redis.createClient({
             host: redis_login.host,
             password: redis_login.password
         });
