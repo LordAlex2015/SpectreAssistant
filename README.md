@@ -2,7 +2,7 @@
 
 ## Add to your code
 ```js
-const SpectreAssistant = require("spectreassistant");
+const {SpectreAssistant} = require("spectreassistant");
 
 // Creating an instance of Spectre Assistant
 client.Spectre = new SpectreAssistant({ host: 'localhost', password: '' }); 
